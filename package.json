@@ -1,0 +1,45 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "firebase": "^9.22.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "description": "Este proyecto es un E-COMERCE muy basico en el cual se muestra una landing page que renderiza todos los productos de la tienda, cuenta con 3 categorias de filtrado: \"almacenamiento\", \"monitores\", \"perifericos\", los cuales renderizan los productos segun su categoria.\r tiene una funcion de ver detalle el cual te genera una vista en la cual se puede ver el detalle mas en profundidad del item puntual.\r tambien cuenta con un sistema de carrito al cual se puede agregar items desde el detalle del producto y el cual calcula un precio total de todo el carrito y renderiza un detalle de cada producto que lo integra.\r en el carrito tenemos 3 botones: un boton par eliminar el producto puntal del carrito, otro el cual limpia todo el carrito y el ultimo que finaliza la compra, mandando la compra a una base de datos echa en firestore y muestra un mensaje final de agradecimiento de la compra y visualiza el id de la compra como referencia.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
